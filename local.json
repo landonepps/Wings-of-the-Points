@@ -1,10 +1,5 @@
 {
     "rewardPrograms": [{
-        "name": "SPG",
-        "type": "hotel",
-        "code": "SPG",
-        "attribute": ""
-    }, {
         "name": "Air China",
         "type": "airline",
         "code": "CA",
