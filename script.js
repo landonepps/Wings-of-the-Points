@@ -155,8 +155,8 @@ $.ajax({
         _.map(remoteNodes, o => {
             const iata = o.sc;
             const dataId = `[data-node-id="${o.id}"]`
-            SVG.select(`${dataId} rect.airlineLogo`).fill(SVG('fake').image(`http://cdn.yeekapp.com/cardImages/${o.sc.toUpperCase()}.png?x-oss-process=image/resize,w_20,limit_1/format,jpg/interlace,1`, 15, 15));
-            SVG.select(`${dataId} rect.allianceLogo`).fill(SVG('fake').image(`http://cdn.yeekapp.com/wings/${o.alliance}.png?x-oss-process=image/resize,w_20,limit_1/format,jpg/interlace,1`, 15, 15));
+            SVG.select(`${dataId} rect.airlineLogo`).fill(SVG('fake').image(`images/cardImages/${o.sc.toUpperCase()}.png`, 15, 15));
+            SVG.select(`${dataId} rect.allianceLogo`).fill(SVG('fake').image(`images/wings/${o.alliance}.png`, 15, 15));
         })
 
     }
