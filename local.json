@@ -1326,6 +1326,20 @@
         "ratio": 0.4166666666666667
     }, {
         "from": {
+            "name": "Amex - MR",
+            "type": "bank",
+            "code": "AMEX",
+            "attribute": "US"
+        },
+        "to": {
+            "name": "Qantas",
+            "type": "airline",
+            "code": "QF",
+            "attribute": "Oneworld"
+        },
+        "ratio": 1
+    }, {
+        "from": {
             "name": "Citi - TYP",
             "type": "bank",
             "code": "CITI",
